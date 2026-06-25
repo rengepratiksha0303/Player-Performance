@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 model = joblib.load("knn_model (3).pkl")
-scaler = joblib.load("scaler.pkl")
+scaler = joblib.load("scaler (2).pkl")
 feature_names = joblib.load("feature_names.pkl")
 
 st.title("⚽ FIFA Player Performance Predictor")
