@@ -4,7 +4,7 @@ import joblib
 
 # Load model and scaler
 model = joblib.load("knn_model (3).pkl")
-scaler = joblib.load("scaler.pkl")
+scaler = joblib.load("scaler (2).pkl")
 
 st.set_page_config(
     page_title="FIFA Player Performance Predictor",
