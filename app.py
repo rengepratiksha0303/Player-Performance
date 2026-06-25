@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load model and scaler
-model = joblib.load("knn_model.pkl")
+model = joblib.load("knn_model (3).pkl")
 scaler = joblib.load("scaler.pkl")
 
 st.set_page_config(
